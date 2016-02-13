@@ -3,4 +3,12 @@ class PagesController < ApplicationController
   end
   def contact
   end
+  def about
+  end
+  def policies
+  end
+  def photographers
+  end
+  def jobs
+  end
 end

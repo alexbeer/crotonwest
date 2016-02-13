@@ -1,59 +1,12 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body{
-  margin:0;
-  background-color:white;
-}
 .main_div{
   background-image:url(stickbg.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   height:100vh;
   width:100%;
-}
-#navbar{
-  height:60px;
-  width:100%;
-  border-bottom:3px solid teal;
-  background-color:white;
-}
-.navbar_squeeze{
-  width:910px;
-  margin:auto;
-}
-#logo{
-  height:60px;
-  font-size:30px;
-  line-height: 60px;
-  font-family: 'Raleway', sans-serif;
-  width:200px;
-  float:left;
-}
-#logo a{
-  color:black;
-  text-decoration: none;
-}
-#logo a:hover{
-  border-bottom: 10px solid rgba(230,230,230,.1);
-}
-.navs{
-  display: inline;
-  float:right;
-  height:60px;
-  line-height: 60px;
-  font-family:raleway;
-  text-align: right;
-  padding-right:7px;
-  padding-left:7px;
-  color:black;
-}
-.navs a{
-  color:white;
-  text-decoration: none;
-}
-.navs:hover{
-  background-color:rgba(230,230,230,.1);
 }
 #banner{
   width:911px;
@@ -72,101 +25,7 @@ body{
   margin:auto;
   color:white;
 }
-#footer{
-  height:300px;
-  width:100%;
-  background-color:rgba(230,230,230,1);
-}
-.foot_navs{
-  width:910px;
-  margin:auto;
-  height:236px;
-  text-align: left;
-}
-.foot_nav{
-  font-family:helvetica;
-  font-size:16px;
-  display: inline-block;
-  margin-right:16px;
-  line-height:150px;
-  float:left;
-}
-.socialmedia{
-  height:82px;
-  margin-top:154px;
-  width:100px;
-  text-align: center;
-  float:right;
-}
-.social_media{
-  height:41px;
-  line-height: 41px;
-  font-size:16px;
-  font-family: helvetica;
-}
-.social_media a{
-  color:black;
-  opacity: .4;
-  text-decoration: none;
-}
-.social_media a:hover{
-  opacity:1;
-}
-.sm_line{
-  border-bottom:1px solid teal;
-}
-.foot_nav a{
-  color:black;
-  opacity:.4;
-  text-decoration:none;
-}
-.foot_nav a:hover{
-opacity:1;
-}
-.email_form{
-	width:466px;
-}
-input{
-	height:40px;
-	font-size:20px;
-	padding:2px;
-	text-align: center;
-	width:462px;
-	border-bottom:2px solid white;
-	border-left:0px;
-	border-top:0px;
-	border-right:0px;
-	font-family:raleway;
-
-}
-input:focus {
-  outline-color: transparent;
-  outline-style: none;
-}
-input.button{
-	width:466px;
-	height:40px;
-	font-size:20px;
-	border:0px;
-	background-color:teal;
-	color:white;
-	cursor: pointer;
-}
-textarea,
-input[type="text"],
-input[type="button"],
-input[type="submit"] {
-     -webkit-appearance: none;
-     border-radius: 0;
-}
-.button:hover{
-	opacity:.9;
-}
-.mailsqueeze{
-  width:466px;
-  float:left;
-}
-.contact_div{
+.pages_div{
   height:700px;
   background-image: url(bwstickbg.jpg);
   background-size: cover;
@@ -189,4 +48,24 @@ input[type="submit"] {
   line-height: 100px;
   font-size:24px;
   font-weight: lighter;
+}
+.photographers_title{
+  color:black;
+}
+.photog{
+  width:910px;
+  height:140px;
+  margin:auto;
+  border-bottom:1px solid teal;
+  margin-bottom:20px;
+}
+.photog_img{
+  float:left;
+  width:200px;
+  height:140px;
+  background-color:rgba(230,230,230,.6);
+  color:black;
+}
+.photog_div{
+  height:900px;
 }
