@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get "photographers" => "pages#photographers"
 
+  get "photolayout" => "pages#photolayout"
+
   get "jobs" => "pages#jobs"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
