@@ -70,12 +70,11 @@
   height:900px;
 }
 .photos_div{
-  background-color:white;
-  margin:auto;
-  text-align: center;
+text-align: center;
 }
 .photo{
-  height:85vh;
+  max-width:910px;
+  max-height:94vh;
   margin-bottom:10px;
 }
 .caption{
@@ -93,6 +92,6 @@
   line-height: 80px;
   text-align: left;
   margin:auto;
-
+  font-family:raleway;
 
 }
