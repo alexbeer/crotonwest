@@ -1,6 +1,17 @@
 .photos_div{
 text-align: center;
 }
+.photos_title{
+  height:60px;
+  width:910px;
+  font-size:20px;
+  line-height: 80px;
+  text-align: center;
+  margin:auto;
+  font-family:helvetica;
+  opacity:.7;
+}
+
 .photo{
   max-width:910px;
   max-height:94vh;
@@ -15,13 +26,4 @@ text-align: center;
   font-family: helvetica;
   opacity:.5;
   margin-bottom:50px;
-}
-.photos_title{
-  height:60px;
-  width:910px;
-  font-size:20px;
-  line-height: 80px;
-  text-align: center;
-  margin:auto;
-  font-family:helvetica;
 }

@@ -1,0 +1,25 @@
+.story{
+  border:1px solid black;
+  width:910px;
+  height:400px;
+  margin:auto;
+  margin-bottom:30px;
+  background-image: url(stickbg.jpg);
+  background-size: cover;
+}
+.story_title{
+  line-height:400px;
+  text-align: center;
+  font-family: raleway;
+  color:white;
+  text-decoration: none;
+  font-size:26px;
+}
+.story_pages_title{
+  width:910px;
+  font-size:24px;
+  margin: auto;
+  height:100px;
+  line-height: 100px;
+  font-family: raleway;
+}
