@@ -58,6 +58,7 @@
   margin:auto;
   border-bottom:1px solid teal;
   margin-bottom:20px;
+  color:black;
 }
 .photog_img{
   float:left;
@@ -68,4 +69,35 @@
 }
 .photog_div{
   height:900px;
+}
+.photog_details{
+  float:right;
+  width:700px;
+  margin-left:10px;
+}
+.photog_details a{
+  color:teal;
+}
+.photog_name{
+height:40px;
+width:100px;
+float:left;
+font-weight: bold;
+}
+.photog_description{
+font-size:16px;
+}
+.photog_location{
+font-size:18px;
+height:40px;
+line-height:26px;
+}
+.photog_social{
+font-size:16px;
+}
+.photog_stories{
+  font-size:16px;
+}
+.photog_website{
+  font-size: 16px;
 }
