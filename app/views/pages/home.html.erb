@@ -14,8 +14,8 @@
     else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22)
       { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
     </div>
-
   </div>
 
-  </div>
+  <%= link_to photolayout_path do %><div>South Dakota</div> <% end %>
+
 </body>
