@@ -2,10 +2,7 @@
   <div class="photos_title">Badlands National Park</div>
   <br>
 
-  <section
-  data-featherlight-gallery
-  data-featherlight-filter="a"
-  >
+  <div data-featherlight-gallery data-featherlight-filter="a">
 
     <a href="<%= asset_path( '1sd.jpg' ) %>"><img class="photo" src="<%= asset_path( '1sd.jpg' ) %>"/></a>
     <div class="caption">A male bighorn sheep looks out over the Badlands formations.</div>
@@ -50,3 +47,16 @@
 
 <br>
 </div>
+
+<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script> 
+$('a.gallery').featherlightGallery({
+    previousIcon: '«',
+    nextIcon: '»',
+    galleryFadeIn: 3000,
+
+    openSpeed: 300
+});
+</script>
