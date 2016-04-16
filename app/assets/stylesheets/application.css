@@ -17,6 +17,11 @@
    margin:0;
    background-color: white;
    min-width: 910px;
+   font-family: raleway ;
+ }
+ .body_squeeze{
+   margin:auto;
+   width:910px;
  }
  #navbar{
    height:60px;

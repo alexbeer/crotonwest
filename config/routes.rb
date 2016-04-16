@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   get "stories" => "pages#stories"
 
   get "guides" => "pages#guides"
+
+  get "guideexample" => "pages#guideexample"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
