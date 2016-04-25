@@ -77,6 +77,42 @@
   border-bottom: 1px solid black;
 }
 
+
 .trail_name{
   font-size:16px;
+}
+
+.photo_gallery_link{
+  width:100%;
+  height:400px;
+  margin-top:10px;
+  line-height: 400px;
+  font-size:30px;
+  text-align: center;
+  background-image: url(2sd.jpg);
+  background-size: cover;
+  color:black;
+  text-decoration: underline;
+}
+.photo_gallery_link:hover{
+  opacity:.9;
+}
+
+.guide_links a{
+  text-decoration: none;
+  color:gray;
+}
+.guide_links a:hover{
+  color:black;
+}
+.mileage{
+  font-size:12px;
+  font-weight: bold;
+}
+.hikingtrail{
+  font-size:20px;
+}
+.mapsize{
+  width:100%;
+
 }
