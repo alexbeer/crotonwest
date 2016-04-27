@@ -1,0 +1,167 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+   margin:0;
+   background-color: white;
+   min-width: 910px;
+   font-family: raleway ;
+ }
+ .body_squeeze{
+   margin:auto;
+   width:910px;
+ }
+ #navbar{
+   height:60px;
+   width:100%;
+   background-color:white;
+   border-bottom:2px solid teal;
+
+ }
+ .navbar_squeeze{
+ /*  padding-left: 5%; */
+   margin:auto;
+   width:910px;
+ }
+ #logo{
+   height:60px;
+   font-size:20px;
+   line-height: 60px;
+   font-family: 'Raleway', sans-serif;
+   float:left;
+
+ }
+ #logo a{
+   color:black;
+   text-decoration: none;
+ }
+ .navs{
+   display: inline;
+   float:right;
+   height:60px;
+   line-height: 60px;
+   font-family:raleway;
+   text-align: right;
+   padding-right:7px;
+   padding-left:7px;
+   color:black;
+
+ }
+ .navs a{
+   color:black;
+   text-decoration: none;
+ }
+ .navs:hover{
+   background-color:rgba(230,230,230,.1);
+ }
+ .navs_push{
+   width:5%;
+   height:60px;
+   float:right;
+ }
+ #footer{
+   height:300px;
+   width:100%;
+   background-color:rgba(230,230,230,1);
+ }
+ .foot_navs{
+   width:910px;
+   margin:auto;
+   height:236px;
+   text-align: left;
+ }
+ .foot_nav{
+   font-family:helvetica;
+   font-size:16px;
+   display: inline-block;
+   margin-right:16px;
+   line-height:150px;
+   float:left;
+ }
+ .socialmedia{
+   height:82px;
+   margin-top:154px;
+   width:100px;
+   text-align: center;
+   float:right;
+ }
+ .social_media{
+   height:41px;
+   line-height: 41px;
+   font-size:16px;
+   font-family: helvetica;
+ }
+ .social_media a{
+   color:black;
+   opacity: .4;
+   text-decoration: none;
+ }
+ .social_media a:hover{
+   opacity:1;
+ }
+ .sm_line{
+   border-bottom:1px solid teal;
+ }
+ .foot_nav a{
+   color:black;
+   opacity:.4;
+   text-decoration:none;
+ }
+ .foot_nav a:hover{
+ opacity:1;
+ }
+ .email_form{
+ 	width:466px;
+ }
+ input{
+ 	height:40px;
+ 	font-size:20px;
+ 	padding:2px;
+ 	text-align: center;
+ 	width:462px;
+ 	border-bottom:2px solid white;
+ 	border-left:0px;
+ 	border-top:0px;
+ 	border-right:0px;
+ 	font-family:raleway;
+
+ }
+ input:focus {
+   outline-color: transparent;
+   outline-style: none;
+ }
+ input.button{
+ 	width:466px;
+ 	height:40px;
+ 	font-size:20px;
+ 	border:0px;
+ 	background-color:teal;
+ 	color:white;
+ 	cursor: pointer;
+ }
+ textarea,
+ input[type="text"],
+ input[type="button"],
+ input[type="submit"] {
+      -webkit-appearance: none;
+      border-radius: 0;
+ }
+ .button:hover{
+ 	opacity:.9;
+ }
+ .mailsqueeze{
+   width:466px;
+   float:left;
+ }

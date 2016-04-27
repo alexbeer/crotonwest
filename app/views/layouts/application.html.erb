@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Croton West</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application','lightbox', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+ </head>
+
+<body>
+
+ 	<%= render 'layouts/header' %>
+	<%= yield %>
+	<%= render 'layouts/footer' %>
+
+	<%= javascript_include_tag	'lightbox-plus-jquery' %>
+	<script>
+    	lightbox.option({
+      		'resizeDuration': 200,
+      		'wrapAround': true
+      		'showImageNumberLabel': false
+    		})
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+.story{
+  border:1px solid black;
+  width:910px;
+  height:400px;
+  margin:auto;
+  margin-bottom:30px;
+  background-image: url(stickbg.jpg);
+  background-size: cover;
+  line-height:400px;
+  text-align: center;
+  font-family: raleway;
+  color:white;
+  text-decoration: none;
+  font-size:26px;
+}
+.story_pages_title{
+  width:910px;
+  font-size:24px;
+  margin: auto;
+  height:100px;
+  line-height: 100px;
+  font-family: raleway;
+}
+.guide_title{
+  width:910px;
+  color:white;
+  font-size:50px;
+  margin:auto;
+  padding-top: 100px;
+}
+.guide_title_location{
+  font-size:30px;
+  width:910px;
+  margin: auto;
+  color:white;
+
+}
+.guide_title_image{
+  background-image: url(badlandsbg.jpg);
+  background-size:cover;
+  height:500px;
+  border-bottom:2px solid teal;
+}
+.guide_navbar{
+  width:909px;
+  height:100px;
+  border-bottom:2px solid teal;
+
+}
+
+.guide_nav{
+  margin-top:20px;
+  height:60px;
+  line-height: 60px;
+  color:rgba(0,0,0,.6);
+  width:148px;
+  text-align: center;
+  background-color:rgba(230,230,230,1.0);
+  display: inline-block;
+  border-radius:5px;
+
+}
+.guide_nav:hover{
+  background-color:black;
+  color:white;
+}
+.guide_topic{
+  width:100%;
+  font-family: helvetica;
+}
+.guide_topic_title{
+  height:60px;
+  line-height: 60px;
+  margin:auto;
+  text-align: center;
+  width:150px;
+  font-size:20px;
+}
+
+
+.trail_name{
+  font-size:16px;
+}
+
+.photo_gallery_link{
+  width:100%;
+  height:400px;
+  margin-top:10px;
+  line-height: 400px;
+  font-size:30px;
+  text-align: center;
+  background-image: url(2sd.jpg);
+  background-size: cover;
+  color:black;
+  text-decoration: underline;
+}
+.photo_gallery_link:hover{
+  opacity:.9;
+}
+
+.guide_links a{
+  text-decoration: none;
+  color:gray;
+}
+.guide_links a:hover{
+  color:black;
+}
+.mileage{
+  font-size:12px;
+  font-weight: bold;
+}
+.hikingtrail{
+  font-size:18px;
+}
+.mapsize{
+  width:100%;
+
+}
+.portrait_image{
+  width:50%;
+}
+.landscape_image{
+  width:100%;
+}
+.camp_image_text{
+  width:45%;
+  float:right;
+}
+.guide_topic_subtitle{
+  font-size:20px;
+  font-weight:bolder;
+  border-bottom:1px solid gray;
+  width:20%;
+}
+.image_caption{
+  color:gray;
+}
