@@ -74,7 +74,11 @@
   margin:auto;
   text-align: center;
   width:150px;
+<<<<<<< HEAD
   border-bottom: 1px solid black;
+=======
+  font-size:20px;
+>>>>>>> 86a96ad92e1ddb932d718f21b661562a5911ee3e
 }
 
 
@@ -110,9 +114,35 @@
   font-weight: bold;
 }
 .hikingtrail{
+<<<<<<< HEAD
   font-size:20px;
+=======
+  font-size:18px;
+>>>>>>> 86a96ad92e1ddb932d718f21b661562a5911ee3e
 }
 .mapsize{
   width:100%;
 
 }
+<<<<<<< HEAD
+=======
+.portrait_image{
+  width:50%;
+}
+.landscape_image{
+  width:100%;
+}
+.camp_image_text{
+  width:45%;
+  float:right;
+}
+.guide_topic_subtitle{
+  font-size:20px;
+  font-weight:bolder;
+  border-bottom:1px solid gray;
+  width:20%;
+}
+.image_caption{
+  color:gray;
+}
+>>>>>>> 86a96ad92e1ddb932d718f21b661562a5911ee3e
