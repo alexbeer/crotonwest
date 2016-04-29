@@ -9,11 +9,9 @@ Rails.application.routes.draw do
 
   get "photographers" => "pages#photographers"
 
-<<<<<<< HEAD
   get "badlandsphotos" => "pages#badlands"
-=======
+
   get "badlands/photos" => "pages#badlands"
->>>>>>> 86a96ad92e1ddb932d718f21b661562a5911ee3e
 
   get "jobs" => "pages#jobs"
 
