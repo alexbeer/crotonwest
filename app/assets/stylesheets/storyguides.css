@@ -1,3 +1,4 @@
+
 .story{
   border:1px solid black;
   width:910px;
@@ -33,32 +34,32 @@
   width:910px;
   margin: auto;
   color:white;
-
 }
 .guide_title_image{
   background-image: url(badlandsbg.jpg);
   background-size:cover;
   height:500px;
-  border-bottom:2px solid teal;
+  border-bottom: 2px solid teal;
+
 }
 .guide_navbar{
   width:909px;
   height:100px;
-  border-bottom:2px solid teal;
-
 }
-
 .guide_nav{
-  margin-top:20px;
-  height:60px;
-  line-height: 60px;
+  height:80px;
+  line-height: 80px;
   color:rgba(0,0,0,.6);
-  width:148px;
+  width:148.3px;
   text-align: center;
-  background-color:rgba(230,230,230,1.0);
   display: inline-block;
-  border-radius:5px;
-
+  font-size:16px;
+}
+.full_width_guide_nav{
+  width:100%;
+  height:80px;
+  background-color:rgba(230,230,230,.4);
+  box-shadow: 2px 2px 2px gray;
 }
 .guide_nav:hover{
   background-color:black;
@@ -67,6 +68,7 @@
 .guide_topic{
   width:100%;
   font-family: helvetica;
+  font-weight: lighter;
 }
 .guide_topic_title{
   height:60px;
@@ -75,13 +77,11 @@
   text-align: center;
   width:150px;
   font-size:20px;
+  font-weight: lighter;
 }
-
-
 .trail_name{
   font-size:16px;
 }
-
 .photo_gallery_link{
   width:100%;
   height:400px;
@@ -92,12 +92,11 @@
   background-image: url(2sd.jpg);
   background-size: cover;
   color:black;
-  text-decoration: underline;
+  font-weight: lighter;
 }
 .photo_gallery_link:hover{
   opacity:.9;
 }
-
 .guide_links a{
   text-decoration: none;
   color:gray;
@@ -111,10 +110,12 @@
 }
 .hikingtrail{
   font-size:18px;
+  font-weight: lighter;
 }
 .mapsize{
   width:100%;
-
+  margin-top:20px;
+  margin-bottom:20px;
 }
 .portrait_image{
   width:50%;
