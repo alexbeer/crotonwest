@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get "photographers" => "pages#photographers"
 
+  get "badlandsphotos" => "pages#badlands"
+
   get "badlands/photos" => "pages#badlands"
 
   get "jobs" => "pages#jobs"
