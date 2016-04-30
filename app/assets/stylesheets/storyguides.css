@@ -23,7 +23,8 @@
   font-family: raleway;
 }
 .guide_title{
-  width:910px;
+  width:80%;
+  min-width:910px;
   color:white;
   font-size:50px;
   margin:auto;
@@ -31,7 +32,8 @@
 }
 .guide_title_location{
   font-size:30px;
-  width:910px;
+  width:80%;
+  min-width:910px;
   margin: auto;
   color:white;
 }
@@ -43,14 +45,16 @@
 
 }
 .guide_navbar{
-  width:909px;
+  width:80%;
   height:100px;
+  min-width: 910px;
+  margin:auto;
 }
 .guide_nav{
   height:80px;
   line-height: 80px;
   color:rgba(0,0,0,.6);
-  width:148.3px;
+  width:16%;
   text-align: center;
   display: inline-block;
   font-size:16px;
