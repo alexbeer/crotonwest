@@ -50,8 +50,8 @@
   margin:auto;
 }
 .guide_nav{
-  height:80px;
-  line-height: 80px;
+  height:79px;
+  line-height:79px;
   color:rgba(0,0,0,.6);
   width:146.97px;
   text-align: center;
@@ -61,7 +61,7 @@
 .full_width_guide_nav{
   height:80px;
   background-color:rgba(230,230,230,.4);
-  box-shadow: 2px 2px 2px gray;
+  border-bottom:1px solid rgba(200,200,200,.4);
 }
 .guide_nav:hover{
   background-color:black;
