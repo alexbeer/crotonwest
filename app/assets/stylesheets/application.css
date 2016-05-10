@@ -127,19 +127,19 @@
  opacity:1;
  }
  .email_form{
- 	width:466px;
+   width:466px;
  }
  input{
- 	height:40px;
- 	font-size:20px;
- 	padding:2px;
- 	text-align: center;
- 	width:462px;
- 	border-bottom:2px solid white;
- 	border-left:0px;
- 	border-top:0px;
- 	border-right:0px;
- 	font-family:raleway;
+   height:40px;
+   font-size:20px;
+   padding:2px;
+   text-align: center;
+   width:462px;
+   border-bottom:2px solid white;
+   border-left:0px;
+   border-top:0px;
+   border-right:0px;
+   font-family:raleway;
 
  }
  input:focus {
@@ -147,13 +147,13 @@
    outline-style: none;
  }
  input.button{
- 	width:466px;
- 	height:40px;
- 	font-size:20px;
- 	border:0px;
- 	background-color:teal;
- 	color:white;
- 	cursor: pointer;
+   width:466px;
+   height:40px;
+   font-size:20px;
+   border:0px;
+   background-color:teal;
+   color:white;
+   cursor: pointer;
  }
  textarea,
  input[type="text"],
@@ -163,7 +163,7 @@
       border-radius: 0;
  }
  .button:hover{
- 	opacity:.9;
+   opacity:.9;
  }
  .mailsqueeze{
    width:466px;
