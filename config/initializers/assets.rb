@@ -13,3 +13,4 @@ Rails.application.config.assets.version = '1.0'
 # Lightbox links. Revisit - shouldn't be necessary to declare here
 Rails.application.config.assets.precompile += %w( lightbox.css )
 Rails.application.config.assets.precompile += %w( lightbox-plus-jquery.js )
+Rails.application.config.assets.precompile += %w( map.html )
