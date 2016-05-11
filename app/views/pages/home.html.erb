@@ -4,7 +4,11 @@
 <body>
   <div class="main_div">
 
-    <div id="banner">Exploring, discovering, and photographing North America</div>
+    <div id="banner">
+      <% if user_signed_in? %> Welcome back, <%=current_user.name%>
+      <% else %> Exploring, discovering, and photographing North America
+      <% end %>
+    </div>
 
     <div class="map">
 

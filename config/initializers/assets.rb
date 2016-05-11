@@ -10,7 +10,7 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 
-# Lightbox links. Revisit - shouldn't be necessary to declare here
+# Lightbox + Map links. Revisit - shouldn't be necessary to declare here
 Rails.application.config.assets.precompile += %w( lightbox.css )
 Rails.application.config.assets.precompile += %w( lightbox-plus-jquery.js )
 Rails.application.config.assets.precompile += %w( map.html )
