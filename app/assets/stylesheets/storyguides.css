@@ -1,21 +1,23 @@
 
 .story{
   border:1px solid black;
-  width:910px;
+
   height:400px;
   margin:auto;
-  margin-bottom:30px;
   background-image: url(stickbg.jpg);
   background-size: cover;
   line-height:400px;
   text-align: center;
   font-family: raleway;
   color:white;
-  text-decoration: none;
   font-size:26px;
 }
+.story a:hover{
+  text-decoration: none;
+}
 .story_pages_title{
-  width:910px;
+  min-width: 910px;
+  max-width: 1100px;
   font-size:24px;
   margin: auto;
   height:100px;
@@ -73,13 +75,17 @@
   font-weight: lighter;
 }
 .guide_topic_title{
-  height:60px;
-  line-height: 60px;
+  height:40px;
+  line-height: 40px;
   margin:auto;
   text-align: center;
-  width:150px;
+  width:250px;
   font-size:20px;
   font-weight: lighter;
+  margin-bottom:10px;
+  margin-top:10px;
+  border-bottom:1px solid teal;
+
 }
 .trail_name{
   font-size:16px;
@@ -116,8 +122,6 @@
 }
 .mapsize{
   width:100%;
-  margin-top:20px;
-  margin-bottom:20px;
 }
 .portrait_image{
   width:50%;
