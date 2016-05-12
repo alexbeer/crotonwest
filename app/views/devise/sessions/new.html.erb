@@ -1,33 +1,28 @@
-<%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: 'form-horizontal'}) do |f| %>
-<%= devise_error_messages! %>
+<div class="container log-in">
+    <br/ >
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2>Welcome Back</h2>
+</div>
+<div class="panel-body">
+ <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+ <%= devise_error_messages! %>
+ 
+ <div class="form-group">
+  <%= f.label :email, "Email" %>
+  <%= f.email_field :email, autofocus: true, autocomplete: "off", class: "form-control" %>
+ </div>
+ 
+ <div class="form-group">
+  <%= f.label :password, "Password" %>
+  <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
+ </div>
+ 
+ <div class="form-group">
+  <%= f.submit "Log In", class: "btn btn-default btn-lg standard-button2" %>
+ </div>
+<% end %>
 
-<body>
-  <div class="main_div">
-    <div id="banner">Welcome Back</div>
-
-    <div class ="form-group">
-      <%= f.label :email, class: "col-sm-2 control-label" %><br />
-      <div class="col-sm-6">
-        <%= f.email_field :email, class: "form-control" %>
-      </div>
-    </div>
-
-    <div class ="form-group">
-      <%= f.label :password, class: "col-sm-2 control-label" %><br />
-      <div class="col-sm-6">
-        <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <% if devise_mapping.rememberable? -%>
-        <%= f.check_box :remember_me %>
-        <%= f.label :remember_me %>
-      <% end -%>
-        <div class="col-sm-offset-2 col-sm-6">
-            <%= f.submit "Sign In", class: "button" %>
-        </div>
-    </div>
-    <% end %>
-  </div>
-</body>
+</div>
+</div>
+</div>
