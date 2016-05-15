@@ -79,6 +79,7 @@
    height:300px;
    width:100%;
    background-color:rgba(230,230,230,1);
+   border-top:1px solid rgba(230,230,230,.5);
  }
  .foot_navs{
    width:910px;
