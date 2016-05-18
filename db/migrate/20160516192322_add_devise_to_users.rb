@@ -1,6 +1,6 @@
-class AddDeviseToModels < ActiveRecord::Migration
+class AddDeviseToUsers < ActiveRecord::Migration
   def self.up
-    change_table :models do |t|
+    change_table :users do |t|
       ## Database authenticatable
       t.change :email, :string,             null: false, default: ""
       t.change :encrypted_password, :string, null: false, default: ""
