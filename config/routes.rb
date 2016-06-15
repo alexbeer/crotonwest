@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :galleries
   devise_for :users
   devise_for :models
   root 'pages#home'
