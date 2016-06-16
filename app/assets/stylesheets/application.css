@@ -13,10 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
  body{
    margin:0;
    background-color: white;
-   min-width: 910px;
+   min-width: 920px;
    font-family: raleway ;
  }
  .body_squeeze{
@@ -29,8 +30,7 @@
    height:60px;
    width:100%;
    background-color:white;
-   border-bottom:1px solid teal;
-
+   border-bottom:1px solid #89B2BB;
  }
  .navbar_squeeze{
  /*  padding-left: 5%; */
@@ -41,34 +41,47 @@
  }
  #logo{
    height:60px;
-   font-size:20px;
+   font-size:24px;
    line-height: 60px;
    font-family: 'Raleway', sans-serif;
    float:left;
-
  }
  #logo a{
    color:black;
    text-decoration: none;
  }
+ .beta{
+   font-size:16px;
+   line-height: 66px;
+   margin-left:10px;
+   height:60px;
+   float:left;
+   color:black;
+ }
  .navs{
    display: inline;
    float:right;
-   height:60px;
-   line-height: 60px;
+   height:40px;
+   line-height: 40px;
+   margin-top:10px;
    font-family:raleway;
    text-align: right;
-   padding-right:7px;
-   padding-left:7px;
+   padding-right:15px;
+   padding-left:15px;
+   font-size:16px;
    color:black;
-
+   background-color: rgba(255,255,255,.1);
+   margin-left:5px;
+   border:1px solid black;
  }
  .navs a{
-   color:black;
+   color:white;
    text-decoration: none;
  }
  .navs:hover{
-   background-color:rgba(230,230,230,.1);
+   background-color:#89B2BB;
+   color:white;
+   border:1px solid #89B2BB;
  }
  .navs_push{
    width:5%;
@@ -76,48 +89,23 @@
    float:right;
  }
  #footer{
-   height:300px;
-   width:100%;
-   background-color:rgba(230,230,230,1);
-   border-top:1px solid rgba(230,230,230,.5);
+   background-color:rgba(240,240,240,1);
  }
  .foot_navs{
-   width:910px;
+   width:80%;
+   max-width: 1100px;
+   min-width:910px;
    margin:auto;
-   height:236px;
-   text-align: left;
+   height:250px;
+
  }
  .foot_nav{
    font-family:helvetica;
    font-size:16px;
    display: inline-block;
-   margin-right:16px;
+   margin-right:15px;
    line-height:150px;
    float:left;
- }
- .socialmedia{
-   height:82px;
-   margin-top:154px;
-   width:100px;
-   text-align: center;
-   float:right;
- }
- .social_media{
-   height:41px;
-   line-height: 41px;
-   font-size:16px;
-   font-family: helvetica;
- }
- .social_media a{
-   color:black;
-   opacity: .4;
-   text-decoration: none;
- }
- .social_media a:hover{
-   opacity:1;
- }
- .sm_line{
-   border-bottom:1px solid teal;
  }
  .foot_nav a{
    color:black;
@@ -127,32 +115,28 @@
  .foot_nav a:hover{
  opacity:1;
  }
- .email_form{
-   width:466px;
- }
  input{
    height:40px;
    font-size:20px;
    padding:2px;
    text-align: center;
-   width:462px;
+   width:500px;
    border-bottom:2px solid white;
    border-left:0px;
    border-top:0px;
    border-right:0px;
    font-family:raleway;
-
  }
  input:focus {
    outline-color: transparent;
    outline-style: none;
  }
  input.button{
-   width:466px;
+   width:500px;
    height:40px;
    font-size:20px;
    border:0px;
-   background-color:teal;
+   background-color:#89B2BB;
    color:white;
    cursor: pointer;
  }
@@ -167,6 +151,57 @@
    opacity:.9;
  }
  .mailsqueeze{
-   width:466px;
-   float:left;
+   width:500px;
  }
+
+/* MOBILE DEV STARTS HERE */
+
+ @media screen and (max-width: 500px){
+   #footer{
+     background-color:white;
+     border-top:2px solid gray;
+
+   }
+   .foot_nav{
+     font-size:3em;
+     display:block;
+     float:none;
+     width:30%;
+     margin-left:5%;
+     height:60px;
+   }
+   .foot_navs{
+     float:left;
+   }
+   #navbar{
+     height:20vh;
+   }
+   #logo{
+     font-size:3em;
+     line-height: 20vh;
+   }
+
+   .navs{
+     height:18vh;
+     line-height: 18vh;
+     width:20%;
+     margin-top:1vh;
+     text-align: center;
+     font-size:2.5em;
+   }
+   .mailsqueeze{
+      width:100%;
+      margin-top:70px;
+      border:2px solid #89B2BB;
+
+   }
+   input.button{
+     width:100%;
+     height:30vh;
+     font-size:4em;
+   }
+   input{
+     width:100%;
+     height:30vh;
+     font-size:4em;
+   }

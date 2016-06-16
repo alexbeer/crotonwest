@@ -5,11 +5,13 @@
   <div class="main_div">
 
 
-    
-
     <div id="banner">
-      <% if user_signed_in? %> Welcome back, <%=current_user.email%>
+
+      <% if user_signed_in? %> Welcome back , <%=current_user.email%> <br><%= link_to "Log out", destroy_user_session_path, method: :delete %>
+
       <% else %> Exploring, discovering, and photographing North America
+
+        <div class="sub_banner"><b>view a destination by selecting a state below </b></div>
       <% end %>
     </div>
 
@@ -25,4 +27,18 @@
       </script>
     </div>
   </div>
+
+
+
+
+  <div class="featured_head">Featured Places</div>
+  <div class="featured">
+    <a href="#"> <img src="<%= asset_path( '3sd.jpg' ) %>"/></a>
+    <a href="#"> <img class="right" src="<%= asset_path( '4sd.jpg' ) %>"/></a>
+    <a href="#">  <img src="<%= asset_path( '5sd.jpg' ) %>"/></a>
+    <a href="#">   <img class="right" src="<%= asset_path( '6sd.jpg' ) %>"/></a>
+  </div>
+
+
+
 </body>
