@@ -2,37 +2,83 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .main_div{
-  background-image:url(stickbg.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-  height:100vh;
+  background-color:white;
+  height:900px;
+  min-height:630px;
   width:100%;
 }
 #banner{
-  width:911px;
-  padding-top:60px;
-  height:50px;
+  padding-top: 100px;
+  height:300px;
   font-family: 'Raleway', sans-serif;
-  color:white;
-  font-size:30px;
-  letter-spacing: 2.41px;
+  font-size:35px;
   margin:auto;
   margin-bottom: 40px;
+  background-color:#89B2BB;
+  color:white;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.sub_banner{
+  height:50px;
+  font-size:20px;
+  margin-bottom:40px;
+  margin:auto;
+  text-align: center;
+  line-height:120px;
 }
 .map{
   height:500px;
   width:910px;
   margin:auto;
   color:white;
+  margin-top:30px;
+}
+.featured_head{
+  border-top:1px solid rgba(240,240,240,1.0);
+  width:80%;
+  min-width:910px;
+  max-width: 1100px;
+  text-align: left;
+  font-size:30px;
+  height:120px;
+  line-height: 120px;
+  margin:auto;
+}
+.featured{
+  margin:auto;
+  width:80%;
+  min-width:910px;
+  max-width: 1100px;
+  margin-bottom:60px;
+  height:750px;
+
+}
+.featured img{
+  width:48%;
+  display:inline-block;
+  float:left;
+  margin-bottom:40px;
+
+}
+.featured img:hover{
+  opacity:.9;
+
+}
+.right{
+  margin-left:4%;
 }
 .pages_div{
   height:700px;
-  background-image: url(bwstickbg.jpg);
-  background-size: cover;
+  background-color:#89B2BB;
 }
 .ninehundredpx{
   height:700px;
-  width:910px;
+  width:80%;
+  min-width:910px;
+  max-width: 1100px;
   margin:auto;
   color:white;
   font-family: raleway;
@@ -40,6 +86,7 @@
 }
 .ninehundredpx a{
   color:white;
+  text-decoration: underline;
 }
 .pages_title{
   height:100px;
