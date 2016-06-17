@@ -34,7 +34,7 @@
 "42":{"id":"42","name":"Pennsylvania","abbr":"PA","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "44":{"id":"44","name":"Rhode Island","abbr":"RI","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "45":{"id":"45","name":"South Carolina","abbr":"SC","title":"","link":"","color":"rgba(255,255,255,0.0)"},
-"46":{"id":"46","name":"South Dakota","abbr":"SD","title":"","link":"badlands","color":""},
+"46":{"id":"46","name":"South Dakota","abbr":"SD","title":"","link":"badlands/photos","color":"#89B2BB"},
 "47":{"id":"47","name":"Tennessee","abbr":"TN","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "48":{"id":"48","name":"Texas","abbr":"TX","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "49":{"id":"49","name":"Utah","abbr":"UT","title":"","link":"","color":"rgba(255,255,255,0.0)"},
@@ -42,7 +42,7 @@
 "51":{"id":"51","name":"Virginia","abbr":"VA","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "53":{"id":"53","name":"Washington","abbr":"WA","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "54":{"id":"54","name":"West Virginia","abbr":"WV","title":"","link":"","color":"rgba(255,255,255,0.0)"},
-"55":{"id":"55","name":"Wisconsin","abbr":"WI","title":"","link":"","color":""},
+"55":{"id":"55","name":"Wisconsin","abbr":"WI","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "56":{"id":"56","name":"Wyoming","abbr":"WY","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "01":{"id":"01","name":"Alabama","abbr":"AL","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "02":{"id":"02","name":"Alaska","abbr":"AK","title":"","link":"","color":"rgba(255,255,255,0.0)"},
@@ -51,4 +51,4 @@
 "06":{"id":"06","name":"California","abbr":"CA","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "08":{"id":"08","name":"Colorado","abbr":"CO","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "09":{"id":"09","name":"Connecticut","abbr":"CT","title":"","link":"","color":"rgba(255,255,255,0.0)"}},
-"options":{"size":{"x":900,"y":525},"states":{"color":{"normal":"rgba(200,200,200,.7)","hover":"rgba(200,200,200,.3)"}},"borders":{"pattern":"1, 0","color":"#7D7D7D"},"labels":{"color":{"normal":"#FFFFFF","hover":"#FFFFFF","inverse":"#FFFFFF"},"display":"none"},"font":"12px Verdana, sans-serif","background":"","links":{"target":"_top","table":false},"titles":{"visible":true},"message":"","maplocation":""}}
+"options":{"size":{"x":900,"y":525},"states":{"color":{"normal":"rgba(200,200,200,.7)","hover":"rgba(137, 178, 187, .4)"}},"borders":{"pattern":"1, 0","color":"#7D7D7D"},"labels":{"color":{"normal":"#FFFFFF","hover":"#FFFFFF","inverse":"#FFFFFF"},"display":"none"},"font":"12px Verdana, sans-serif","background":"","links":{"target":"_top","table":false},"titles":{"visible":true},"message":"","maplocation":""}}
