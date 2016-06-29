@@ -1,74 +1,71 @@
 class GalleriesController < ApplicationController
   before_action :set_gallery, only: [:show, :edit, :update, :destroy]
+  before_action :correct_user, only: [:edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
-  # GET /galleries
-  # GET /galleries.json
+
+
+
+
+
+
+
+
+  include S3PresignedPost
+
   def index
-    @galleries = Gallery.all
+    @Galleries = gallery.all.paginate(:page => params[:page], :per_page => 12)
+
   end
 
-  # GET /galleries/1
-  # GET /galleries/1.json
   def show
   end
 
-  # GET /galleries/new
   def new
-    @gallery = Gallery.new
+    @gallery = current_user.Galleries.build
+    @gallery.images.build
+    @s3_presigned_posts = (1..300).map { |i| s3_presigned_post('Galleries') }
   end
 
-  # GET /galleries/1/edit
   def edit
+    @s3_presigned_posts = (1..300).map { |i| s3_presigned_post('Galleries') }
   end
 
-  # POST /galleries
-  # POST /galleries.json
   def create
-    @gallery = Gallery.new(gallery_params)
-
-    respond_to do |format|
-      if @gallery.save
-        format.html { redirect_to @gallery, notice: 'Gallery was successfully created.' }
-        format.json { render :show, status: :created, location: @gallery }
-      else
-        format.html { render :new }
-        format.json { render json: @gallery.errors, status: :unprocessable_entity }
-      end
+    @gallery = current_user.Galleries.build(gallery_params)
+    if @gallery.save
+      redirect_to @gallery
+    else
+      render action: 'new'
     end
   end
 
-  # PATCH/PUT /galleries/1
-  # PATCH/PUT /galleries/1.json
   def update
-    respond_to do |format|
-      if @gallery.update(gallery_params)
-        format.html { redirect_to @gallery, notice: 'Gallery was successfully updated.' }
-        format.json { render :show, status: :ok, location: @gallery }
-      else
-        format.html { render :edit }
-        format.json { render json: @gallery.errors, status: :unprocessable_entity }
-      end
+    if @gallery.update(gallery_params)
+      redirect_to @gallery
+    else
+      render action: 'edit'
     end
   end
 
-  # DELETE /galleries/1
-  # DELETE /galleries/1.json
   def destroy
     @gallery.destroy
-    respond_to do |format|
-      format.html { redirect_to galleries_url, notice: 'Gallery was successfully deleted.' }
-      format.json { head :no_content }
-    end
+    redirect_to Galleries_url
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_gallery
-      @gallery = Gallery.find(params[:id])
+      @gallery = gallery.find(params[:id])
+    end
+
+    def correct_user
+      @gallery = current_user.Galleries.find_by(id: params[:id])
+      redirect_to Galleries_path if @gallery.nil?
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def gallery_params
-      params.require(:gallery).permit(:description, :image)
+      params.require(:gallery).permit(:title, :location, images_attributes: [:id, :image_large_url, :image_medium_url, :image_thumb_url, :caption, :sequence_num, :_destroy] )
     end
 end
