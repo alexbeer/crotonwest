@@ -1,11 +1,11 @@
 <p id="notice"><%= notice %></p>
 
-<%= image_tag @pin.image.url %>
+<%= image_tag @galleries.image.url %>
 
 <p>
   <strong>Description:</strong>
-  <%= @gallery.description %>
+  <%= @galleries.description %>
 </p>
 
-<%= link_to 'Edit', edit_gallery_path(@gallery) %> |
+<%= link_to 'Edit', edit_galleries_path(@galleries) %> |
 <%= link_to 'Back', galleries_path %>
