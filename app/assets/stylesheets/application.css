@@ -88,7 +88,7 @@
    float:right;
  }
  #footer{
-   height:300px;
+   height:500px;
    width:100%;
    background-color:rgba(240,240,240,1);
  }
@@ -177,5 +177,5 @@
  }
  .mailsqueeze{
    width:500px;
-   
+
  }
