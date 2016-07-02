@@ -177,10 +177,8 @@
  }
  .mailsqueeze{
    width:500px;
-
  }
  .fragment {
-
      height: 60px;
      background-color:rgba(100,0,0,.8);
      display: block;
@@ -202,9 +200,13 @@
      display:inline-block;
      width:100px;
      height:60px;
-     background:#ccc;
+     background-color:rgba(200,200,200,.9);
      line-height: 55px;
      text-align: center;
      font-size:40px;
      cursor: pointer;
+ }
+ #close:hover{
+   background-color:rgba(200,200,200,.6);
+   
  }
