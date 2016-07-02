@@ -179,3 +179,32 @@
    width:500px;
 
  }
+ .fragment {
+     font-size: 12px;
+     height: 60px;
+     background-color:rgba(200,50,50,1.0);
+     display: block;
+     text-decoration: none;
+     min-width:1000px;
+ }
+ .fragment:hover{
+   text-decoration: none;
+ }
+.fragment_message{
+  text-align: center;
+  line-height: 60px;
+  font-size:14px;
+  color:white;
+  font-family: helvetica;
+}
+ #close {
+     float:right;
+     display:inline-block;
+     width:100px;
+     height:60px;
+     background:#ccc;
+     line-height: 55px;
+     text-align: center;
+     font-size:40px;
+     cursor: pointer;
+ }
