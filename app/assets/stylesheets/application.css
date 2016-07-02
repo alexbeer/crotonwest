@@ -180,7 +180,7 @@
 
  }
  .fragment {
-     font-size: 12px;
+
      height: 60px;
      background-color:rgba(100,0,0,.8);
      display: block;
@@ -193,7 +193,7 @@
 .fragment_message{
   text-align: center;
   line-height: 60px;
-  font-size:14px;
+  font-size:16px;
   color:white;
   font-family: helvetica;
 }
