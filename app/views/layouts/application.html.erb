@@ -9,7 +9,10 @@
  </head>
 
 <body>
+  <% if current_page?(root_path) %>
   	<%= render 'layouts/exclaimer' %>
+    <% else %>
+    <% end %>
  	<%= render 'layouts/header' %>
 	<%= yield %>
 	<%= render 'layouts/footer' %>
