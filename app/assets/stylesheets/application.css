@@ -182,7 +182,7 @@
  .fragment {
      font-size: 12px;
      height: 60px;
-     background-color:rgba(200,50,50,1.0);
+     background-color:rgba(100,0,0,.8);
      display: block;
      text-decoration: none;
      min-width:1000px;
