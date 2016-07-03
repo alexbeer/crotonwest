@@ -51,4 +51,4 @@
 "06":{"id":"06","name":"California","abbr":"CA","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "08":{"id":"08","name":"Colorado","abbr":"CO","title":"","link":"","color":"rgba(255,255,255,0.0)"},
 "09":{"id":"09","name":"Connecticut","abbr":"CT","title":"","link":"","color":"rgba(255,255,255,0.0)"}},
-"options":{"size":{"x":900,"y":525},"states":{"color":{"normal":"rgba(200,200,200,.7)","hover":"rgba(137, 178, 187, .4)"}},"borders":{"pattern":"1, 0","color":"#7D7D7D"},"labels":{"color":{"normal":"#FFFFFF","hover":"#FFFFFF","inverse":"#FFFFFF"},"display":"none"},"font":"12px Verdana, sans-serif","background":"","links":{"target":"_top","table":false},"titles":{"visible":true},"message":"","maplocation":""}}
+"options":{"size":{"x":900,"y":525},"states":{"color":{"normal":"rgba(200,200,200,.7)","hover":""}},"borders":{"pattern":"1, 0","color":"#7D7D7D"},"labels":{"color":{"normal":"#FFFFFF","hover":"#FFFFFF","inverse":"#FFFFFF"},"display":"none"},"font":"12px Verdana, sans-serif","background":"","links":{"target":"_top","table":false},"titles":{"visible":true},"message":"","maplocation":""}}
