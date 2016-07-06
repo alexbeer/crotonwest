@@ -14,8 +14,7 @@ class GalleriesController < ApplicationController
 
   # GET /galleries/new
   def new
-    @gallery = current_user.galleries.build
-    @gallery.images.build
+    @gallery = Gallery.new
   end
 
   # GET /galleries/1/edit
@@ -25,7 +24,7 @@ class GalleriesController < ApplicationController
   # POST /galleries
   # POST /galleries.json
   def create
-    @gallery = current_user.galleries.create(gallery_params)
+    @gallery = Gallery.new(gallery_params)
     if @gallery.save
       redirect_to @gallery
     else
