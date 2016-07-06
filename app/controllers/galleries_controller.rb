@@ -24,7 +24,7 @@ class GalleriesController < ApplicationController
   # POST /galleries
   # POST /galleries.json
   def create
-    @gallery = Gallery.new(params[:gallery])
+    @gallery = Gallery.new(gallery_params)
     if @gallery.save
       redirect_to @gallery
     else
