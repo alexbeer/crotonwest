@@ -14,7 +14,8 @@ class GalleriesController < ApplicationController
 
   # GET /galleries/new
   def new
-    @gallery = Gallery.new
+    @gallery = current_user.galleries.build
+    @gallery.images.build
   end
 
   # GET /galleries/1/edit
@@ -24,7 +25,7 @@ class GalleriesController < ApplicationController
   # POST /galleries
   # POST /galleries.json
   def create
-    @gallery = Gallery.new(gallery_params)
+    @gallery = current_user.galleries.create(gallery_params)
     if @gallery.save
       redirect_to @gallery
     else
@@ -64,6 +65,6 @@ class GalleriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def gallery_params
-      params.require(:gallery).permit(:description, :image)
+      params.require(:gallery).permit(:title, :image)
     end
 end
