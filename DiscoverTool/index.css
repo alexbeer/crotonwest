@@ -1,0 +1,125 @@
+
+  body {
+      font-family:'Arial';
+      color:#646464;
+      margin:auto;
+      width: 900px;
+      
+     }
+	.parks-wrap {
+
+    margin:0 5% 0 0;
+    padding:0;
+    position:relative;
+   }
+	.parks {
+    float:left;
+    margin-top:-30px;
+  }
+	/* .parks div {
+    float:left;
+    width:300px;
+    height:200px;
+    line-height:68px;
+    padding:0 5%;
+    background:#eee;
+    margin:0 0 1px;
+    position:relative;
+  } */
+  .park{
+    height:200px;
+    width:285px;
+    background-color:#eee;
+    text-align: center;
+    margin-top:10px;
+    float:left;
+    margin-left:10px;
+    font-size:18px;
+    padding-top:150px;
+  }
+.btn{
+  background-color:#2c3e50;
+  border:none;
+  border-radius: 5px !important;
+    margin-top:10px !important;
+  margin-left:10px !important;
+
+  }
+  .btn.active{
+  }
+h3{
+  margin-left:10px;
+}
+.terrain{
+  height:160px;
+  width:211px;
+  background-color:#7f8c8d;
+  color:white;
+  line-height: 150px;
+  font-size:20px;
+  margin-top:10px !important;
+  margin-left:10px !important;
+  border-radius: 0px !important;
+}
+.terrain:hover{
+  color:white;
+  background-color:#2c3e50;
+  opacity:.9;
+}
+.terrain.active{
+  background-color:#2c3e50;
+}
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+.modal-title{
+  text-align: center;
+}
+img{
+  width:100%;
+}
+.modal-body{
+  margin:none !important;
+  padding:none !important;
+}
+p{
+  background-color:rgba(0,0,0,.2);
+  color:white;
+  margin:auto;
+  line-height: 50px;
+  height:50px;
+}
+.high-mtns{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
+.low-mtns{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
+.desert{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
+.cave{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
+.ocean{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
+.prairie{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
+.swamp{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
+.forest{
+  background-image:url(example.jpg);
+  background-size:cover;
+}
