@@ -44,7 +44,7 @@
   					}
   				}
 
-  				if (byColor.length) {
+				if (byColor.length) {
   					if (str == "Include items \n") {
   						str += "    " + "with (" +  byColor.join(' OR ') + ")\n";
   						$($('input[name=fl-size]:checked')).each(function(index, byColor){

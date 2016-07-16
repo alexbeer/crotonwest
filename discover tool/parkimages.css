@@ -1,0 +1,250 @@
+
+/* terrain images */
+.high-mtns{
+  background-image:url(highmtns.jpg);
+  background-size:cover;
+}
+.high-mtns.active{
+  background-image:url(highmtns.jpg);
+  background-size:cover;
+}
+.low-mtns{
+  background-image:url(lowmtns.jpg);
+  background-size:cover;
+}
+.low-mtns.active{
+  background-image:url(lowmtns.jpg);
+  background-size:cover;
+}
+.desert{
+  background-image:url(desert.jpg);
+  background-size:cover;
+}
+.desert.active{
+  background-image:url(desert.jpg);
+  background-size:cover;
+}
+.cave{
+  background-image:url(cave.jpg);
+  background-size:cover;
+}
+.cave.active{
+  background-image:url(cave.jpg);
+  background-size:cover;
+}
+.ocean{
+  background-image:url(ocean.jpg);
+  background-size:cover;
+}
+.ocean.active{
+  background-image:url(ocean.jpg);
+  background-size:cover;
+}
+.prairie{
+  background-image:url(prairie.jpg);
+  background-size:cover;
+}
+.prairie.active{
+  background-image:url(prairie.jpg);
+  background-size:cover;
+}
+.swamp{
+  background-image:url(swamp.jpg);
+  background-size:cover;
+}
+.swamp.active{
+  background-image:url(swamp.jpg);
+  background-size:cover;
+}
+.forest{
+  background-image:url(forest.jpg);
+  background-size:cover;
+}
+.forest.active{
+  background-image:url(forest.jpg);
+  background-size:cover;
+}
+/* end terrain images */
+
+/* individual park images */
+.acadia{
+  background-image: url(acadia.jpg);
+  background-size: cover;
+}
+.american-samoa{
+  background-image: url(american-samoa.jpg);
+  background-size: cover;
+}
+.arches{
+  background-image: url(arches.jpg);
+  background-size: cover;
+}
+.badlands{
+  background-image: url(badlands.jpg);
+  background-size: cover;
+}
+.big-bend{
+  background-image: url(big-bend.jpg);
+  background-size: cover;
+}
+.biscayne{
+  background-image: url(biscayne.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+.acadia{
+  background-image: url(example.jpg);
+  background-size: cover;
+}
+/* end individual park images */ 
