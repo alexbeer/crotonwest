@@ -7,6 +7,22 @@
   <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" type="text/css" href="parkimages.css">
+  <script>  
+  $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -18,21 +34,36 @@
     </div>
     <div class="header">
       <div class="header_squeeze">
-       <div class="logo"><a href="#">Croton West</a><span class="beta">beta</span></div>
+       <div class="logo"><a href="#">Croton West</a><a id="myBtn" href="#"><span class="beta">beta</span></a></div>
 
-      </div>
+       <!-- The Modal -->
+       <div id="myModal" class="modal">
+         <!-- Modal content -->
+         <div class="modal-content">
+           <span class="close">x</span>
+           <br>
+           Hey! <br><br> This little "beta" tag just means that we are still developing and
+           are in the very early stages. <br><br>
+           Let us know what you think and if you've got any feedback at <a href="#"> hello@crotonwest.com </a>
+         </div>
+       </div>
+     </div>
     </div>
-  <div class="body_squeeze">
+
+<div class="first_whole_page">
+<div class="discover_park_bg">
       <div class="discover_your_park">
         Discover<br>Your<br>National Park.
-
-        <span class="arrow">&#8595;</span>
-
+        <!-- <span class="arrow">&#8595;</span> -->
       </div>
-      <br>
-      <hr>
+</div>
+
+
+              <div class="body_squeeze">
                 <div class="continents-wrap">
-                    <h3>Where would you like to go? &#8595;</h3>
+                    <div class="where">Where would you like to go?
+                      <span class="select_apply">select all that apply</span>
+                    </div>
                     <div class="terrains">
                       <div class="btn-group" data-toggle="buttons">
                     	  <div class="btn terrain high-mtns"><input type="checkbox" name="fl-cont" value="high-mtns" id="high-mtns"/><span class="terrain_text">High Mountains</span></div>
@@ -44,13 +75,24 @@
                         <div class="btn terrain swamp"><input type="checkbox" name="fl-cont" value="swamp" id="swamp"/><span class="terrain_text">Swamp</span></div>
                         <div class="btn terrain forest"><input type="checkbox" name="fl-cont" value="forest" id="forest"/><span class="terrain_text">Forest</span></div>
                     </div>
+                  </div>
               	   </div>
                 </div>
 
+                <div id="next_button">Next</div>
+              </div>
+
+              <div id="second_whole_page">
+                <div class="body_squeeze">
+
+                <div class="what">What do you want to do or see?<span class="select_apply">select all that apply</span></div>
+                <div class="activities-group">
             <div class="parks-wrap">
-                <h3>What do you want to do or see? &#8595;</h3>
+
                 <form>
+
                   <div class="btn-group" data-toggle="buttons">
+
                 	  <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="backpacking" id="backpacking"/>Backpacking</div>
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="fishing" id="fishing" />Fishing</label></div>
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="horseback-riding" id="horseback-riding" />Horseback riding</label></div>
@@ -61,22 +103,34 @@
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="biking" id="biking" />Biking</label></div>
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="big-trees" id="big-trees" />Big trees</label></div>
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="canyons" id="canyons" />Canyons</label></div>
-                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="geologic-formations" id="geologic-formations" />Geologic formations</label></div>
-                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="glaciers" id="glaciers" />Glaciers</label></div>
+                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="hiking" id="hiking" />Hiking</div>
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="hot-springs" id="hot-springs" />Hot springs</label></div>
-                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="modern-lodging" id="modern-lodging" />Modern lodging</label></div>
-                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="volcanic-activity" id="volcanic-activity" />Volcanic activity</label></div>
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="waterfalls" id="waterfalls" />Waterfalls</label></div>
                     <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="wildlife" id="wildlife" />Wildlife</div>
-                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="hiking" id="hiking" />Hiking</div>
-                </form>
-          	</div>
-          </div>
+                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="geologic-formations" id="geologic-formations" />Geologic formations</label></div>
+                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="glaciers" id="glaciers" />Glaciers</label></div>
 
-  <h3>Your Park: &#8595;</h3>
+                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="modern-lodging" id="modern-lodging" />Modern lodging</label></div>
+                    <div class="btn btn-primary"><input type="checkbox" name="fl-size" value="volcanic-activity" id="volcanic-activity" />Volcanic activity</label></div>
+
+
+                  </div>
+
+                </form>
+
+
+          </div></div>
+          <div class="above_view_park"></div>
+          <div id="view_park_next_button">View your park</div>
+        </div>
+
+<div id="your_park">Your Park</div>
+
+<div class="body_squeeze">
 
               <div class="parks">
-                  <br><br>
+
+
               	  <div class="park acadia" data-id="acadia" data-category="low-mtns ocean hiking surfing fishing rock-climbing biking boating snow-sports horseback-riding"><p>Acadia</p></div>
                   <div class="park american-samoa" data-id="american-samoa" data-category="ocean hiking"><p>American Samoa</p></div>
                   <div class="park arches" data-id="arches" data-category="desert rock-climbing backpacking hiking geologic-formations biking horseback-riding"><p>Arches</div>
@@ -136,12 +190,15 @@
                   <div class="park yellowstone" data-id="yellowstone" data-category="high-mtns forest prairie boating backpacking wildlife fishing modern-lodging horseback-riding waterfalls volcanic-activity geologic-formations snow-sports hot-springs"><p>Yellowstone</div>
                   <div class="park yosemite" data-id="yosemite" data-category="high-mtns rock-climbing canyons fishing modern-lodging horseback-riding waterfalls snow-sports big-trees"><p>Yosemite</div>
                   <div class="park zion" data-id="zion" data-category="desert modern-lodging canyons backpacking rock-climbing hiking boating"><p>Zion</div>
+
          		</div>
-
-
+            
+</div>
 
       <script src="index.js"></script>
     </div>
+
+<div class="above_footer_div"></div>
     <div class="footer">
       <div class="tip_top">
         <div class="tip_top_left"></div>
@@ -162,5 +219,8 @@
       </div>
 
     </div>
+
+
+
   </body>
 </html>

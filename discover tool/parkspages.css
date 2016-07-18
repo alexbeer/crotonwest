@@ -1,0 +1,42 @@
+.park_name{
+  height:50px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-top:50px;
+  font-size:24px;
+}
+.park_location{
+  height:20px;
+  line-height: 20px;
+  font-size:16px;
+  text-align: center;
+  width: 100%;
+}
+.park_image_gallery{
+  height: 600px;
+  width:90%;
+  background-size:cover;
+  margin:auto;
+  margin-top:55px;
+}
+
+img{
+  height: 100%;
+}
+.park_description{
+  font-size:16px;
+  font-family: helvetica;
+  margin:auto;
+  width:600px;
+  margin-top:50px;
+  line-height: 30px;
+  margin-bottom:50px;
+}
+.google_maps_embed{
+  height:400px;
+  margin:auto;
+  width:90%;
+  margin-bottom:50px;
+}
